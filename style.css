@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #cdebf3;
+}
+
+h1 {
+    color: #306D75;
+    font-size: 60px;
+}
+
+h2 {
+    color: #4AA3BA;
+    font-size: 45px;
+}
+
+p {
+    color: #306D75;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.main-header {
+    padding: 40px 40px 0px 40px;
+}
+
+.biography, .portfolio{
+    padding: 40px;
+}
+
+.biography > p {
+    padding-top: 40px;
+}
+
+.portfolio {
+    background: #306D75;
+}
+
+.portfolio > h1 {
+    color: #cdebf3;
+    padding-bottom: 40px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 15px;
+    border: 5px solid #000000;
+    padding: 20px;
+    margin: 20px;
+}
+
+.project-card > h2 {
+    padding-top: 10px;
+    text-align: center;
+}
